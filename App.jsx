@@ -28,7 +28,8 @@ import Modal from "./Modal";
 
 const App = () => {
   return (
-    <div>
+    <div>    
+
       <h2>Welcome</h2>
       {/* <UseState/> */}
       {/* <UseState2/> */}
@@ -55,7 +56,7 @@ const App = () => {
       {/* <Calculator/> */}
       {/* <MultiStepForm/>*/}
       {/* <Pagination/> */}
-       <Modal/>
+      {/* <Modal/> */}
 
        
     </div>
