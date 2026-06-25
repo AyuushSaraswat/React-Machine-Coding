@@ -25,6 +25,7 @@ import Calculator from "./Calculator";
 import MultiStepForm from "./Multi-Step-Form";
 import Pagination from "./Pagination";
 import Modal from "./Modal";
+import FbReactions from "./FbReactions";
 
 const App = () => {
   return (
@@ -57,6 +58,7 @@ const App = () => {
       {/* <MultiStepForm/>*/}
       {/* <Pagination/> */}
       {/* <Modal/> */}
+      <FbReactions/>
 
        
     </div>

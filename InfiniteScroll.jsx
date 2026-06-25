@@ -27,6 +27,7 @@ export default function App() {
   // observe last item
 
   const lastRef = (node) => {
+
     if (loading) return ;
  
     if (observer.current) observer.current.disconnect();
@@ -38,6 +39,7 @@ export default function App() {
     });
 
     if (node) observer.current.observe(node);
+    
   };
 
   return (
